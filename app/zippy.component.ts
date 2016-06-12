@@ -41,7 +41,7 @@ import {Component, Input} from 'angular2/core';
         <div *ngIf="isExpanded" class="zippy-content">
             <ng-content></ng-content> 
         </div>
-    </div>
+    </div>    
     `
 })
 export class ZippyComponent {
